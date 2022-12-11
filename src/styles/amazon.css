@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-color: #1d2a35;
+}
+
+section {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+.cards {
+  width: 250px;
+  padding: 20px;
+}
+
+.cards:hover {
+  box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.image_box img {
+  width: 150px;
+  height: 200px;
+}
+
+.details p:nth-child(1) {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.details p:nth-child(2) {
+  color: rgb(178, 178, 178);
+  font-size: 0.8rem;
+}
+.details p:nth-child(3) {
+  color: white;
+}
+
+.details button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #04aa6d;
+  outline: none;
+}
+
+.details button:hover {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #04aa6d;
+  font-weight: bold;
+  background-color: white;
+  outline: none;
+}
